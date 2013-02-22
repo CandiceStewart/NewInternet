@@ -9,9 +9,7 @@
 <link rel="stylesheet" type="text/css" href="Static/css/stylesheet.css" ></link>
 </head>
 <body>
-<% java.util.Date d = new java.util.Date(); %>
 <h1>
-Today's date is <%= d.toString() %> and this jsp page worked!
 </h1>
 </body>
 </html>
