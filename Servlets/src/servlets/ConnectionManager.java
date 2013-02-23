@@ -15,7 +15,7 @@ public class ConnectionManager {
 			String uname = "CandiceStewart";
 			String pwd = "ac31004";
 			
-			Class.forName("com.mysql.jbdc.Driver");
+			Class.forName("");
 			try
 			{
 				con = DriverManager.getConnection(url+dbName,uname,pwd);

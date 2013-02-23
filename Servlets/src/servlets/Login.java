@@ -41,7 +41,9 @@ public class Login extends HttpServlet {
 				response.sendRedirect("Success.jsp");
 			}
 			else
+			{
 				response.sendRedirect("Fail.jsp");
+			}
 			}
 		catch (Throwable exc)
 		{
