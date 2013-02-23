@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Users Options</title>
+<title>Admins Options</title>
 <link rel="stylesheet" type="text/css" href="Static/css/stylesheet.css" ></link>
 </head>
 <body>
-User Logged in Successfully!!!!
+
 </body>
 </html>
