@@ -13,9 +13,9 @@
 </a>
 <a id="page2Link" href="page2.html">Submit Report
 </a>
-<a id="page3Link" href="page3.html">Page 3
+<a id="page3Link" href="page3.html">Bugs Reported
 </a>
-<a id="page4Link" href="page4.html">Page 4
+<a id="page4Link" href="page4.html">
 </a>
 </p>
 <div id="content">
