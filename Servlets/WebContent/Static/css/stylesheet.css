@@ -16,3 +16,10 @@ body
 	padding-left:auto;
 	padding-top:auto;
 }
+
+#main
+{
+	padding-left:350px;
+	padding-top:200px;
+	postion:fixed;
+}

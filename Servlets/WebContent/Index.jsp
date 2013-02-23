@@ -12,5 +12,8 @@
 <div id="header">
 <jsp:include page="Nav.jsp"/>
 </div>
+<div id="main">
+<img src="Static/css/ibroke2.png">
+</div>
 </body>
 </html>
