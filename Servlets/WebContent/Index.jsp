@@ -9,7 +9,8 @@
 <link rel="stylesheet" type="text/css" href="Static/css/stylesheet.css" ></link>
 </head>
 <body>
-<h1>
-</h1>
+<div id="header">
+<jsp:include page="Nav.jsp"/>
+</div>
 </body>
 </html>
