@@ -9,9 +9,8 @@
 <link rel="stylesheet" type="text/css" href="Static/css/stylesheet.css" ></link>
 </head>
 <body>
-<div id="header">
+<jsp:include page="LogIn.jsp"/>
 <jsp:include page="Nav.jsp"/>
-</div>
 <div id="main">
 <img src="Static/css/ibroke2.png">
 </div>

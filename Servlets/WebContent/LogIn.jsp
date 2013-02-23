@@ -7,12 +7,14 @@
 <title></title>
 </head>
 <body>
+<div id="log">
 <form name="actionForm" action="Login" method="GET">
 <table>
 <tr><td>Enter your Username: </td><td><input type="text" name="uname"/></td></tr>
 <tr><td>Enter your Password: </td><td><input type="password" name="password"/></td></tr>
-<tr><td colspan="2" align="center"><input type="submit" value="submit"> </td></tr>
+<tr><td colspan="2" align="left"><input type="submit" value="submit"> </td></tr>
 </table>
 </form>
+</div>
 </body>
 </html>
