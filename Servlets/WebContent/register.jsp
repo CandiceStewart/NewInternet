@@ -9,7 +9,7 @@
 </head>
 <body>
 <div id="main">
-<form name="form" method="post" action="insertdata.jsp">
+<form name="form" method="post" action="Insert.jsp">
 <table>
 <tr><td><u>REGISTRATION FORM</u></td></tr>
 <tr><td></td></tr>
@@ -17,13 +17,19 @@
 <tr><td></td></tr>
 <tr><td></td></tr>
 <tr><td></td></tr>
-<tr><td>Enter First Name</td><td><input type="text" name="fname"></td></tr>
-<tr><td>Enter Last Name</td><td><input type="text" name="lname"></td></tr>
-<tr><td>Enter Username</td><td><input type="text" name="uname"></td></tr>
-<tr><td>Enter Pasword</td><td><input type="password" name="pass"></td></tr>
-<tr><td>Enter Address</td><td><input type="text" name="address"></td></tr>
-<tr><td>Enter City</td><td><input type="text" name="city"></td></tr>
-<tr><td></td><td><input type="submit" value="Add" name="button"></td></tr>
+<tr><td>Enter First Name: </td><td><input type="text" name="fname"></td></tr>
+<tr><td>Enter Last Name: </td><td><input type="text" name="lname"></td></tr>
+<tr><td>Enter Username: </td><td><input type="text" name="uname"></td></tr>
+<tr><td>Enter Password: </td><td><input type="password" name="pass"></td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td></td><td><input type="submit" value="ADD MY DETAILS" name="button"></td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td></td><td><a href="Index.jsp">Take me Home!</a></td></tr>
 </table>
 </form>
 </div>
