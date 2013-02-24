@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Admins Options</title>
+<title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="Static/css/stylesheet.css" ></link>
 </head>
 <body>
-<jsp:include page="Nav2.jsp"/>
+Your details have been added <a href = "Index.jsp">Return Home!</a>
 </body>
 </html>

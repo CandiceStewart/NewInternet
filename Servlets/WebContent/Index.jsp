@@ -10,7 +10,6 @@
 </head>
 <body>
 <jsp:include page="LogIn.jsp"/>
-<jsp:include page="Nav.jsp"/>
 <div id="main">
 <img src="Static/css/ibroke2.png">
 </div>

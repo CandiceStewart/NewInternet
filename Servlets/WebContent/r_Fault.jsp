@@ -4,10 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Admins Options</title>
-<link rel="stylesheet" type="text/css" href="Static/css/stylesheet.css" ></link>
+<title>Insert title here</title>
 </head>
 <body>
-<jsp:include page="Nav2.jsp"/>
+
 </body>
 </html>

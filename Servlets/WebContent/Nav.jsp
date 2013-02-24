@@ -7,5 +7,11 @@
 <title></title>
 </head>
 <body>
+<ul id="nav">
+	<li><a href="#">Submit Report</a></li>
+	<li><a href="#">Current Reports</a></li>
+	<li><a href="#">Completed Reports</a></li>
+	<li><a href="Index.jsp">Log Out!</a></li>
+</ul>
 </body>
 </html>

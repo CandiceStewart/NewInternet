@@ -9,7 +9,7 @@
 </head>
 <body>
 <div id="main">
-<form name="form" method="post" action="Insert.jsp">
+<form name="actionform" action="Register" method="POST">
 <table>
 <tr><td><u>REGISTRATION FORM</u></td></tr>
 <tr><td></td></tr>
@@ -17,10 +17,10 @@
 <tr><td></td></tr>
 <tr><td></td></tr>
 <tr><td></td></tr>
-<tr><td>Enter First Name: </td><td><input type="text" name="fname"></td></tr>
-<tr><td>Enter Last Name: </td><td><input type="text" name="lname"></td></tr>
+<tr><td>Enter First Name: </td><td><input type="text" name="firstName"></td></tr>
+<tr><td>Enter Last Name: </td><td><input type="text" name="lastName"></td></tr>
 <tr><td>Enter Username: </td><td><input type="text" name="uname"></td></tr>
-<tr><td>Enter Password: </td><td><input type="password" name="pass"></td></tr>
+<tr><td>Enter Password: </td><td><input type="password" name="password"></td></tr>
 <tr><td></td></tr>
 <tr><td></td></tr>
 <tr><td></td></tr>

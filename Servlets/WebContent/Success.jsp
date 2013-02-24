@@ -8,8 +8,6 @@
 <link rel="stylesheet" type="text/css" href="Static/css/stylesheet.css" ></link>
 </head>
 <body>
-<div id="log">
-<a href="Index.jsp">Log Out!</a>
-</div>
+<jsp:include page="Nav.jsp"/>
 </body>
 </html>
