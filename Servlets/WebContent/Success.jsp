@@ -8,6 +8,8 @@
 <link rel="stylesheet" type="text/css" href="Static/css/stylesheet.css" ></link>
 </head>
 <body>
-User Logged in Successfully!!!!
+<div id="log">
+<a href="Index.jsp">Log Out!</a>
+</div>
 </body>
 </html>

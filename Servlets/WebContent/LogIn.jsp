@@ -12,7 +12,8 @@
 <table>
 <tr><td>Enter your Username: </td><td><input type="text" name="uname"/></td></tr>
 <tr><td>Enter your Password: </td><td><input type="password" name="password"/></td></tr>
-<tr><td colspan="2" align="left"><input type="submit" value="submit"> </td></tr>
+<tr><td align="left"><a href = "register.jsp">Register Here</a></td>
+<td colspan="2" align="right"><input type="submit" value="submit"></td></tr>
 </table>
 </form>
 </div>
