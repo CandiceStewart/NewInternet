@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class Complaint
+ * Servlet implementation class Report
  */
-@WebServlet("/Complaint")
-public class Complaint extends HttpServlet {
+@WebServlet("/Report")
+public class Report extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Complaint() {
+    public Report() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -33,7 +33,20 @@ public class Complaint extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		try
+		{
+			System.out.println("In report servlet");
+			Bean2 fault = new Bean2();
+			fault.setFaultType(request.getParameter("f_type"));
+			fault.setFaultTitle(request.getParameter("f_title"));
+			fault.setFaultDetail(request.getParameter("f_detail"));
+			fault = Rquery.report(fault);
+			response.sendRedirect("Success.jsp");
+		}
+		catch (Throwable exc)
+		{
+			System.out.println(exc);
+		}
 	}
 
 }
