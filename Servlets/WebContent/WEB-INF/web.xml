@@ -5,7 +5,11 @@
   	<welcome-file-list>
   		<welcome-file>HomeController</welcome-file>
         <welcome-file>Index.jsp</welcome-file>
-        <welcome-file>LogIn.jsp</welcome-file>        
+        <welcome-file>LogIn.jsp</welcome-file> 
+        <welcome-file>Fail.jsp</welcome-file>
+        <welcome-file>Success.jsp</welcome-file>  
+        <welcome-file>Register.jsp</welcome-file>
+        <welcome-file>Admin.jsp</welcome-file>  
     </welcome-file-list>
     
   <display-name>JSPBook</display-name>
@@ -21,7 +25,7 @@
   <servlet>
   	<display-name>Register</display-name>
     <servlet-name>Register</servlet-name>
-    <servlet-class>Servlets.Register</servlet-class>
+    <servlet-class>servlets.Register</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Register</servlet-name>
@@ -30,7 +34,7 @@
     <servlet>
   	<display-name>Report</display-name>
     <servlet-name>Report</servlet-name>
-    <servlet-class>Servlets.Report</servlet-class>
+    <servlet-class>servlets.Report</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>Report</servlet-name>
